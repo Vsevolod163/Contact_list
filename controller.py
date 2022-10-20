@@ -7,7 +7,7 @@ def button():
 3. Изменить контакт
 4. Удалить контакт
 5. Поиск по контактам''')
-    path = '/Users/seva/Desktop/Учеба/Python/Homeworks/Homework_8/Contact_list/contact_list.txt'
+    path = 'contact_list.txt'
     res_file = model.open_file_list(path)
     res_file = model.remove_space(path, res_file)
     do = view.what_to_do()
